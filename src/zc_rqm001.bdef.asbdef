@@ -1,0 +1,15 @@
+unmanaged implementation in class zbp_c_rqm001 unique;
+strict; //Uncomment this line in order to enable strict mode 2. The strict mode has two variants (strict(1), strict(2)) and is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZC_RQM001 alias qm001
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  field ( readonly ) InspectionLot;
+
+  action ( features : instance ) zzchange parameter ZA_QM001_PARMATER result [1] $self;
+  action ( features : instance ) zzpdf result [1] $self;
+  action ( features : instance ) zzsend result [1] $self;
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: '质量检验打印'
+define service ZPRINT_QM001 {
+  expose ZC_PQM001;
+  expose ZC_PQM001_CLASS;
+  expose ZC_PQM001_CHAR;
+}

@@ -1,0 +1,16 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "生产过程检批次放行JOB\t",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "className": "ZZCL_JOB_QM001"
+  },
+  "parameters": [
+    {
+      "name": "LOT"
+    }
+  ]
+}

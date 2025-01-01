@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "生产过程检批次放行JOB",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZZ_JCE_QM001"
+  },
+  "parameters": {
+    "valueRangesParameters": [
+      {
+        "name": "LOT",
+        "valueRanges": []
+      }
+    ]
+  }
+}

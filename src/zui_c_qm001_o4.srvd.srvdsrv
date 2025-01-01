@@ -1,0 +1,5 @@
+@EndUserText.label: '质量检验报告'
+define service ZUI_C_QM001_O4 {
+  expose ZC_RQM001      as HEAD;
+  expose ZC_RQM001_CHAR as ITEM;
+}
